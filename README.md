@@ -12,8 +12,8 @@ Simple CRUD APIs to do CRUD operation in Nodejs using Express.
 ## Getting Started
 
 ```
-Git clone
-cd
+Git clone https://github.com/jeyk333/CRUD-Node.git
+cd CRUD-Node
 npm install
 npm start
 ```
