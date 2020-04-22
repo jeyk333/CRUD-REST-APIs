@@ -4,6 +4,7 @@ require("dotenv/config");
 
 const app = express();
 
+//Port
 const port = process.env.PORT || 5000;
 
 //Routes
@@ -20,4 +21,5 @@ mongoose
   })
   .then(() => console.log("DB connected "));
 
+//App listening to the port
 app.listen(port, () => console.log("app running successfully"));
