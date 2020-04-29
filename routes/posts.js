@@ -29,13 +29,6 @@ router.delete("/:id", (req, res) => {
     .catch((err) => res.status(400).json("Request Failed"));
 });
 
-//To delete multiple post
-router.post("/delete", (req, res) => {
-  Posts.deleteMany({ _id: list, list: { $in: req.body.list } })
-    .then((resp) => res.status(200).json(resp))
-    .catch((err) => res.status(400).json("Request Failed"));
-});
-
 //To Get a specific post
 router.get("/:id", (req, res) => {
   Posts.findById(req.params.id)
