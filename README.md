@@ -2,7 +2,7 @@
 
 ### Using Express
 
-Simple CRUD APIs to do CRUD operation in Nodejs using Express.
+Simple RESTful CRUD APIs to do CRUD operation in Nodejs using Express framework and MongoDB.
 
 ## Prereqisite
 
